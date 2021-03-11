@@ -4,7 +4,7 @@ Rust library that uses id666-sys
 
 ## usage
 
-```rs
+```rust
 use id666::ID666;
 
 fn main() {
