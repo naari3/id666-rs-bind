@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "id666",
+  "id666-sys",
+]
+
