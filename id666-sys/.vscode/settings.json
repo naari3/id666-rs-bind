@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "limits.h": "c",
+        "id666.h": "c",
+        "string.h": "c"
+    },
+    "rust-analyzer.cargo.loadOutDirsFromCheck": true
+}

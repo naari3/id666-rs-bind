@@ -1,0 +1,3 @@
+[submodule "id666-sys/src/c"]
+	path = id666-sys/src/c
+	url = https://github.com/jprjr/libid666
