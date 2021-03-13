@@ -1,8 +1,22 @@
-use std::mem::MaybeUninit;
+use std::{error::Error, fmt::Display, mem::MaybeUninit};
 
 #[derive(Debug)]
 pub enum ID666Error {
     InvalidData,
+}
+
+impl Error for ID666Error {
+    fn description(&self) -> &str {
+        match *self {
+            ID666Error::InvalidData => "Invalid data",
+        }
+    }
+}
+
+impl Display for ID666Error {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{:?}", self)
+    }
 }
 
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
