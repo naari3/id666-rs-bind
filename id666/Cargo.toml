@@ -1,5 +1,5 @@
 [package]
-name = "id666-rs"
+name = "id666"
 version = "0.1.0"
 authors = ["naari3 <naari.named@gmail.com>"]
 edition = "2018"
